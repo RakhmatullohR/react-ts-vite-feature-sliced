@@ -1,0 +1,314 @@
+{
+  "authors": [
+    {
+      "id": "d101",
+      "name": "Rakhmatulloh D101",
+      "booksCount": 101,
+      "createdAt": "2023-10-01T12:01:01Z",
+      "updatedAt": "2023-10-01T12:01:01Z"
+    },
+    {
+      "id": "d102",
+      "name": "Rakhmatulloh D102",
+      "booksCount": 102,
+      "createdAt": "2023-10-01T12:01:02Z",
+      "updatedAt": "2023-10-01T12:01:02Z"
+    },
+    {
+      "id": "d103",
+      "name": "Rakhmatulloh D103",
+      "booksCount": 103,
+      "createdAt": "2023-10-01T12:01:03Z",
+      "updatedAt": "2023-10-01T12:01:03Z"
+    },
+    {
+      "id": "d104",
+      "name": "Rakhmatulloh D104",
+      "booksCount": 104,
+      "createdAt": "2023-10-01T12:01:04Z",
+      "updatedAt": "2023-10-01T12:01:04Z"
+    },
+    {
+      "id": "d105",
+      "name": "Rakhmatulloh D105",
+      "booksCount": 105,
+      "createdAt": "2023-10-01T12:01:05Z",
+      "updatedAt": "2023-10-01T12:01:05Z"
+    },
+    {
+      "id": "d106",
+      "name": "Rakhmatulloh D106",
+      "booksCount": 106,
+      "createdAt": "2023-10-01T12:01:06Z",
+      "updatedAt": "2023-10-01T12:01:06Z"
+    },
+    {
+      "id": "d107",
+      "name": "Rakhmatulloh D107",
+      "booksCount": 107,
+      "createdAt": "2023-10-01T12:01:07Z",
+      "updatedAt": "2023-10-01T12:01:07Z"
+    },
+    {
+      "id": "d108",
+      "name": "Rakhmatulloh D108",
+      "booksCount": 108,
+      "createdAt": "2023-10-01T12:01:08Z",
+      "updatedAt": "2023-10-01T12:01:08Z"
+    },
+    {
+      "id": "d109",
+      "name": "Rakhmatulloh D109",
+      "booksCount": 109,
+      "createdAt": "2023-10-01T12:01:09Z",
+      "updatedAt": "2023-10-01T12:01:09Z"
+    },
+    {
+      "id": "d110",
+      "name": "Rakhmatulloh D110",
+      "booksCount": 110,
+      "createdAt": "2023-10-01T12:01:10Z",
+      "updatedAt": "2023-10-01T12:01:10Z"
+    },
+    {
+      "id": "d111",
+      "name": "Rakhmatulloh D111",
+      "booksCount": 111,
+      "createdAt": "2023-10-01T12:01:11Z",
+      "updatedAt": "2023-10-01T12:01:11Z"
+    },
+    {
+      "id": "d112",
+      "name": "Rakhmatulloh D112",
+      "booksCount": 112,
+      "createdAt": "2023-10-01T12:01:12Z",
+      "updatedAt": "2023-10-01T12:01:12Z"
+    },
+    {
+      "id": "d113",
+      "name": "Rakhmatulloh D113",
+      "booksCount": 113,
+      "createdAt": "2023-10-01T12:01:13Z",
+      "updatedAt": "2023-10-01T12:01:13Z"
+    },
+    {
+      "id": "d114",
+      "name": "Rakhmatulloh D114",
+      "booksCount": 114,
+      "createdAt": "2023-10-01T12:01:14Z",
+      "updatedAt": "2023-10-01T12:01:14Z"
+    },
+    {
+      "id": "d115",
+      "name": "Rakhmatulloh D115",
+      "booksCount": 115,
+      "createdAt": "2023-10-01T12:01:15Z",
+      "updatedAt": "2023-10-01T12:01:15Z"
+    },
+    {
+      "id": "d116",
+      "name": "Rakhmatulloh D116",
+      "booksCount": 116,
+      "createdAt": "2023-10-01T12:01:16Z",
+      "updatedAt": "2023-10-01T12:01:16Z"
+    },
+    {
+      "id": "d117",
+      "name": "Rakhmatulloh D117",
+      "booksCount": 117,
+      "createdAt": "2023-10-01T12:01:17Z",
+      "updatedAt": "2023-10-01T12:01:17Z"
+    },
+    {
+      "id": "d118",
+      "name": "Rakhmatulloh D118",
+      "booksCount": 118,
+      "createdAt": "2023-10-01T12:01:18Z",
+      "updatedAt": "2023-10-01T12:01:18Z"
+    },
+    {
+      "id": "d119",
+      "name": "Rakhmatulloh D119",
+      "booksCount": 119,
+      "createdAt": "2023-10-01T12:01:19Z",
+      "updatedAt": "2023-10-01T12:01:19Z"
+    },
+    {
+      "id": "d120",
+      "name": "Rakhmatulloh D120",
+      "booksCount": 120,
+      "createdAt": "2023-10-01T12:01:20Z",
+      "updatedAt": "2023-10-01T12:01:20Z"
+    },
+    {
+      "id": "d121",
+      "name": "Rakhmatulloh D121",
+      "booksCount": 121,
+      "createdAt": "2023-10-01T12:01:21Z",
+      "updatedAt": "2023-10-01T12:01:21Z"
+    },
+    {
+      "id": "d122",
+      "name": "Rakhmatulloh D122",
+      "booksCount": 122,
+      "createdAt": "2023-10-01T12:01:22Z",
+      "updatedAt": "2023-10-01T12:01:22Z"
+    },
+    {
+      "id": "d123",
+      "name": "Rakhmatulloh D123",
+      "booksCount": 123,
+      "createdAt": "2023-10-01T12:01:23Z",
+      "updatedAt": "2023-10-01T12:01:23Z"
+    },
+    {
+      "id": "d124",
+      "name": "Rakhmatulloh D124",
+      "booksCount": 124,
+      "createdAt": "2023-10-01T12:01:24Z",
+      "updatedAt": "2023-10-01T12:01:24Z"
+    },
+    {
+      "id": "d125",
+      "name": "Rakhmatulloh D125",
+      "booksCount": 125,
+      "createdAt": "2023-10-01T12:01:25Z",
+      "updatedAt": "2023-10-01T12:01:25Z"
+    },
+    {
+      "id": "d126",
+      "name": "Rakhmatulloh D126",
+      "booksCount": 126,
+      "createdAt": "2023-10-01T12:01:26Z",
+      "updatedAt": "2023-10-01T12:01:26Z"
+    },
+    {
+      "id": "d127",
+      "name": "Rakhmatulloh D127",
+      "booksCount": 127,
+      "createdAt": "2023-10-01T12:01:27Z",
+      "updatedAt": "2023-10-01T12:01:27Z"
+    },
+    {
+      "id": "d128",
+      "name": "Rakhmatulloh D128",
+      "booksCount": 128,
+      "createdAt": "2023-10-01T12:01:28Z",
+      "updatedAt": "2023-10-01T12:01:28Z"
+    },
+    {
+      "id": "d129",
+      "name": "Rakhmatulloh D129",
+      "booksCount": 129,
+      "createdAt": "2023-10-01T12:01:29Z",
+      "updatedAt": "2023-10-01T12:01:29Z"
+    },
+    {
+      "id": "d130",
+      "name": "Rakhmatulloh D130",
+      "booksCount": 130,
+      "createdAt": "2023-10-01T12:01:30Z",
+      "updatedAt": "2023-10-01T12:01:30Z"
+    },
+    {
+      "id": "d131",
+      "name": "Rakhmatulloh D131",
+      "booksCount": 131,
+      "createdAt": "2023-10-01T12:01:31Z",
+      "updatedAt": "2023-10-01T12:01:31Z"
+    },
+    {
+      "id": "d132",
+      "name": "Rakhmatulloh D132",
+      "booksCount": 132,
+      "createdAt": "2023-10-01T12:01:32Z",
+      "updatedAt": "2023-10-01T12:01:32Z"
+    },
+    {
+      "id": "5a55",
+      "name": "Rakhmatulloh D133",
+      "booksCount": 333,
+      "createdAt": "2025-05-08T11:39:10.801Z",
+      "updatedAt": "2025-05-08T11:39:10.801Z"
+    },
+    {
+      "id": "d231",
+      "name": "Rakhmatulloh D133",
+      "booksCount": 333,
+      "createdAt": "2025-05-08T11:39:21.005Z",
+      "updatedAt": "2025-05-08T11:39:21.005Z"
+    },
+    {
+      "id": "506e",
+      "name": "Rakhmatulloh D135",
+      "booksCount": 333,
+      "createdAt": "2025-05-08T11:40:30.968Z",
+      "updatedAt": "2025-05-08T11:40:30.968Z"
+    },
+    {
+      "id": "e89f",
+      "name": "Rakhmatulloh D136",
+      "booksCount": 135,
+      "createdAt": "2025-05-08T11:48:16.007Z",
+      "updatedAt": "2025-05-08T11:48:16.007Z"
+    }
+  ],
+  "books": [
+    {
+      "id": "b101",
+      "title": "Book 101",
+      "authorId": "d101",
+      "publishedYear": 2021,
+      "genre": "Fiction"
+    },
+    {
+      "id": "b102",
+      "title": "Book 102",
+      "authorId": "d102",
+      "publishedYear": 2022,
+      "genre": "Non-Fiction"
+    },
+    {
+      "id": "b103",
+      "title": "Book 103",
+      "authorId": "d103",
+      "publishedYear": 2023,
+      "genre": "Science"
+    },
+    {
+      "id": "b104",
+      "title": "Book 104",
+      "authorId": "d104",
+      "publishedYear": 2020,
+      "genre": "History"
+    },
+    {
+      "id": "b105",
+      "title": "Book 105",
+      "authorId": "d105",
+      "publishedYear": 2019,
+      "genre": "Biography"
+    },
+    {
+      "id": "b106",
+      "title": "Book 106",
+      "authorId": "d106",
+      "publishedYear": 2018,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "b107",
+      "title": "Book 107",
+      "authorId": "d107",
+      "publishedYear": 2017,
+      "genre": "Mystery"
+    },
+    {
+      "id": "b108",
+      "title": "Book 108",
+      "authorId": "d108",
+      "publishedYear": 2016,
+      "genre": "Romance"
+    }
+  ]
+}
