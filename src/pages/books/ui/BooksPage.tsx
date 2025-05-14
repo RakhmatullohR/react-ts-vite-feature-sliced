@@ -3,14 +3,13 @@ import { SearchIcon } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 import {
-   $filteredAuthors,
-   Author,
-   changeAuthorFilter,
-   deleteAuthorFx,
-   fetchAuthorsFx,
-   updateAuthorFx,
-} from '@/entities/authors/model';
-import { AddEditDrawer } from '@/features/manage-author';
+   $filteredbooks,
+   Book,
+   changeBookFilter,
+   deleteBookFx,
+   fetchBooksFx,
+} from '@/entities/books/model';
+import { AddEditDrawer } from '@/features/manage-books';
 import { Input } from '@/shared/ui/input';
 import {
    Table,
@@ -21,25 +20,25 @@ import {
    TableRow,
 } from '@/shared/ui/table';
 
-export function AuthorsPage() {
+export function BooksPage() {
    const [filterOpen, setFilterOpen] = useState(false);
    const [filter, setFilter] = useState('');
-   const filteredAuthors = useUnit($filteredAuthors);
+   const filteredBooks = useUnit($filteredbooks);
 
    useEffect(() => {
-      fetchAuthorsFx();
+      fetchBooksFx();
    }, []);
 
    const handleFilterKeyDown = (e: React.KeyboardEvent) => {
       if (e.key === 'Enter') {
-         changeAuthorFilter(filter);
+         changeBookFilter(filter);
       }
    };
 
    return (
       <div className='max-h-full overflow-hidden'>
          <div className='flex items-center justify-between p-4 h-17'>
-            <h1 className='text-2xl font-bold'>Authors</h1>
+            <h1 className='text-2xl font-bold'>Books</h1>
             <div className='flex gap-2 h-full'>
                {filterOpen && (
                   <Input
@@ -47,7 +46,7 @@ export function AuthorsPage() {
                      placeholder='Filter by name'
                      value={filter}
                      onChange={e => {
-                        if (e.target.value === '') changeAuthorFilter('');
+                        if (e.target.value === '') changeBookFilter('');
                         setFilter(e.target.value);
                      }}
                      onKeyDown={handleFilterKeyDown}
@@ -61,7 +60,7 @@ export function AuthorsPage() {
                >
                   <SearchIcon className='w-4 h-4' />
                </button>
-               <AddEditDrawer author={{ name: '', booksCount: 0 } as Author} />
+               <AddEditDrawer book={{ title: '' } as Book} />
             </div>
          </div>
 
@@ -72,33 +71,23 @@ export function AuthorsPage() {
                      <TableHeader className='bg-background'>
                         <TableRow>
                            <TableHead className='w-[100px]'>id</TableHead>
-                           <TableHead>Name</TableHead>
-                           <TableHead>Books Count</TableHead>
-                           <TableHead className='w-[100px]'>isDead</TableHead>
+                           <TableHead>Title</TableHead>
+                           <TableHead>Genre</TableHead>
+                           <TableHead>Published Year</TableHead>
+                           <TableHead>Author</TableHead>
                            <TableHead className='text-right'>Actions</TableHead>
                         </TableRow>
                      </TableHeader>
                      <TableBody>
-                        {filteredAuthors.map(author => (
-                           <TableRow key={author.id}>
-                              <TableCell>{author.id}</TableCell>
-                              <TableCell>{author.name}</TableCell>
-                              <TableCell>{author.booksCount}</TableCell>
-                              <TableCell>
-                                 <input
-                                    type='checkbox'
-                                    checked={author.isDead}
-                                    className='cursor-pointer'
-                                    onChange={() => {
-                                       updateAuthorFx({
-                                          ...author,
-                                          isDead: !author.isDead,
-                                       });
-                                    }}
-                                 />
-                              </TableCell>
+                        {filteredBooks.map(book => (
+                           <TableRow key={book.id}>
+                              <TableCell>{book.id}</TableCell>
+                              <TableCell>{book.title}</TableCell>
+                              <TableCell>{book.genre}</TableCell>
+                              <TableCell>{book.publishedYear}</TableCell>
+                              <TableCell>{book.authorName}</TableCell>
                               <TableCell className='text-right'>
-                                 <AddEditDrawer author={author}>
+                                 <AddEditDrawer book={book}>
                                     <button className='cursor-pointer'>
                                        Edit
                                     </button>
@@ -107,10 +96,10 @@ export function AuthorsPage() {
                                     onClick={() => {
                                        if (
                                           confirm(
-                                             `Are you sure you want to delete ${author.name}?`
+                                             `Are you sure you want to delete ${book.title}?`
                                           )
                                        ) {
-                                          deleteAuthorFx(author.id as string);
+                                          deleteBookFx(book.id as string);
                                        }
                                     }}
                                     className='text-red-600 ml-2 cursor-pointer'

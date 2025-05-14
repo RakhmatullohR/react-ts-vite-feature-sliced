@@ -4,4 +4,5 @@ export type Author = {
    booksCount: number;
    createdAt: string;
    updatedAt: string;
+   isDead?: boolean;
 };

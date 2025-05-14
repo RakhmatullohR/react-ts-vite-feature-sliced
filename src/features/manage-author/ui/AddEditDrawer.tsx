@@ -90,6 +90,21 @@ export function AddEditDrawer({
                         className='border rounded-md p-2'
                      />
                   </div>
+                  {/* isDead */}
+                  <div className='flex items-center gap-2'>
+                     <input
+                        type='checkbox'
+                        id='isDead'
+                        checked={userState?.isDead || false}
+                        onChange={e =>
+                           setUserState({
+                              ...userState,
+                              isDead: e.target.checked,
+                           } as Author)
+                        }
+                     />
+                     <label htmlFor='isDead'>Is Dead</label>
+                  </div>
                </div>
 
                <DrawerFooter className='flex flex-row justify-end'>

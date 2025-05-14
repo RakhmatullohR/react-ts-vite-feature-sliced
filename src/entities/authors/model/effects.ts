@@ -1,7 +1,7 @@
 import { createEffect } from 'effector';
 import { Author } from './types';
 
-export const fetchAuthorsFx = createEffect(async () => {
+export const fetchAuthorsFx = createEffect(async (): Promise<Author[]> => {
    const res = await fetch('http://localhost:5000/authors');
    return await res.json();
 });

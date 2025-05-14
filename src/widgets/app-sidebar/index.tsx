@@ -1,4 +1,12 @@
-import { Book, Calculator, Home, User } from 'lucide-react';
+import {
+   Book,
+   Calculator,
+   Circle,
+   Home,
+   Stars,
+   StepForward,
+   User,
+} from 'lucide-react';
 
 import { ROUTES } from '@/shared/config';
 import {
@@ -34,6 +42,26 @@ const items = [
       title: 'Books',
       url: ROUTES.BOOKS,
       icon: Book,
+   },
+   {
+      title: 'Supers',
+      url: ROUTES.SUPERS,
+      icon: Stars,
+   },
+   {
+      title: 'UI Loading',
+      url: ROUTES.UI_LOADING,
+      icon: Circle,
+   },
+   {
+      title: 'Effects Sequence',
+      url: ROUTES.EFFECTS_SEQUENCE,
+      icon: StepForward,
+   },
+   {
+      title: 'Not Found',
+      url: ROUTES.NOT_FOUND,
+      icon: Circle,
    },
 ];
 
